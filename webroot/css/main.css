@@ -1,0 +1,20 @@
+
+main {
+  margin: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  width: 50%;
+}
+
+img {
+  border: 2px dotted gray;
+}
+
+@media (min-width: 1000px) {
+  .main {
+    display: flex;
+  }
+}
